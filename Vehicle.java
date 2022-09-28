@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 /**
  * This is vehicle class
- * Which is an abstract class.
  * @see <a href="Vehicle.html">This</a>
  * @version 0.0
  * @author Karm
@@ -31,7 +30,7 @@ public class Vehicle{
         this.no_of_wheels = Byte.parseByte(br.readLine());
         System.out.print("Fuel type - ");
         this.fuel_type = br.readLine();
-        System.out.print("Is it with Gear or Gear-less - ");
+        System.out.print("Is it with Gear(true) or Gear-less(false) - ");
         this.hasGear = sc.nextBoolean();
         System.out.print("Range of " + type_of_vehicle + " per litre or per charge(if Electric) - ");
         this.range = Integer.parseInt(br.readLine());
