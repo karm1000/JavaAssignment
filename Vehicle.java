@@ -6,6 +6,7 @@ import java.util.Scanner;
  * @see <a href="Vehicle.html">This</a>
  * @version 0.0
  * @author Karm
+ *
  */
 
 public class Vehicle{
@@ -19,7 +20,6 @@ public class Vehicle{
 
     /**
      * These Methods are for asking details to users
-     * @throws IOException
      */
     public void askDetails()throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
