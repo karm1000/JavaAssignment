@@ -26,7 +26,9 @@ public class Minute extends Second {
      * @param second
      */
     public Minute(int minute,int second)throws TimeFormatException{
-        try{super(second);}catch(Exception e){System.out.println(e);}
+        //try{
+	super(second);
+	//}catch(Exception e){System.out.println(e);}
 	if(minute>59 || minute<0){
 		throw new TimeFormatException();
 	}

@@ -1,7 +1,11 @@
-//import myTime.*;
-public class MainJava{
+//import myTime.MyTime;
+
+public class MainTime{
 	public static void main(String []args){
-		Time t1 = new Time(10,55,32);
-		t1.display();
+		try{
+			myTime.MyTime t1 = new myTime.MyTime(10,63,32);
+			t1.displayTime();
+		}catch(Exception e){System.out.println(e);}
+		
 	}
 }

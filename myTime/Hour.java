@@ -28,7 +28,9 @@ public class Hour extends Minute{
      * @param second
      */
     public Hour(int hour,int minute,int second)throws TimeFormatException{
-        try{super(minute,second);}catch(Exception e){System.out.println(e);}
+        //try{
+	super(minute,second);
+	//}catch(Exception e){System.out.println(e);}
 	if(hour>23 || hour<0){throw new TimeFormatException();}
         this.hour = hour;
     }
