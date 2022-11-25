@@ -1,14 +1,5 @@
 import java.io.*;
-class NegativeNumberException extends Exception{
-	public String toString(){
-		return "NegativeNumberException ocuured";
-	}
-
-	public String getMessage(){
-		return "Negative Number is not Allowed";
-	}
-
-}
+import NumberException.NegativeNumberException;
 public class Factorial{
 
 	static long factorial(int n)throws NegativeNumberException{

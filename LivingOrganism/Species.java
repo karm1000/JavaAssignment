@@ -1,4 +1,4 @@
-package livingOrganism;
+package LivingOrganism;
 import java.io.*;
 //7
 

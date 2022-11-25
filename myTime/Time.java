@@ -24,14 +24,9 @@ public class Time extends Hour{
      * @param minute
      * @param second
      */
-    public Time(int hour,int minute,int second){
-        try{
+    public Time(int hour,int minute,int second)throws myTime.exception.TimeFormatException {
 		super(hour,minute,second);
 		timeInSeconds = convertToSecond();
-	}catch(Exception e){
-		System.out.println(e);
-	}
-        
     }
 
     /**

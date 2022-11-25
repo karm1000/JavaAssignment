@@ -1,16 +1,7 @@
 import java.math.BigInteger;
 import java.io.*;
+import NumberException.NegativeNumberException;
 
-class NegativeNumberException extends Exception{
-	public String toString(){
-		return "NegativeNumberException ocuured";
-	}
-
-	public String getMessage(){
-		return "Negative Number is not Allowed";
-	}
-
-}
 
 public class BigFactorial{
     static BigInteger factorial(int num)throws NegativeNumberException{
