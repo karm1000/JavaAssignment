@@ -20,7 +20,7 @@ public class UsingLivingOrganism{
 			try {
 				int option = ask();
 				switch(option){
-					case 1:{ species = new Species("Homo Sapians","Homo","Hominidae","Primates","Mammalia","Chordata","Animilia");}
+					case 1:{ species = new Species("Homo Sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Animilia");}
 					break;
 					case 2:{species = new Species("P. leo","Panthera","Felidae","Carnivora","Mammalia","Chordata","Animilia");}
 					break;
@@ -28,8 +28,10 @@ public class UsingLivingOrganism{
 					break;
 				/*case 1:{species = new Species("Homo Sapians","Homo","Hominidae","Primates","Mammalia","Chordata","Animilia");}
 					break;*/
-					case 4:{flag = false;}
-					break loop;
+					case 4:{
+						flag = false;
+						break loop;
+					}
 					default: break;
 
 				}

@@ -3,7 +3,7 @@ import java.io.*;
 
 //5
 
-public class Family extends Order{
+public class   Family extends Order{
 	String family;
 	public Family()throws IOException{
 		super();

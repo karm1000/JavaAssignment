@@ -2,7 +2,7 @@ package LivingOrganism;
 import java.io.*;
 
 //3
-public class CLASS extends Phylum{
+public class  CLASS extends Phylum{
 	String cLass;
 	public CLASS()throws IOException{
 		super();

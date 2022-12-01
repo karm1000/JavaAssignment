@@ -19,9 +19,11 @@ public class Second {
      * @param second
      */
     public Second(int second) throws TimeFormatException{
-	if(second>59 || second<0){
-		throw new TimeFormatException();
-	}
-        this.second = (second>59 || second<0?0:second);
+        if(second<0){
+            throw new TimeFormatException("Second cannot be Negative");
+        } else if (second>59){
+            throw new TimeFormatException("Second cannot be above 59");
+        }
+        this.second = second;
     }
 }
